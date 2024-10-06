@@ -15,11 +15,11 @@
 
 显示界面
 
-![img](E:/ljx/a_lincol29%E7%9A%84github%E4%BB%93%E5%BA%93/README/1709725933824-7f77fb65-7df3-448f-a67f-dd19a2f0d6d7.png)
+![img](https://image.lincol29.cn/images/2024/10/06/1709725933824-7f77fb65-7df3-448f-a67f-dd19a2f0d6d744600a6cc5a04297.png)
 
 录制的视频界面，添加时间水印
 
-![img](E:/ljx/a_lincol29%E7%9A%84github%E4%BB%93%E5%BA%93/README/1709725963309-7e0959b1-82a8-4cc3-a194-c71828c0ab4a.png)
+![img](https://image.lincol29.cn/images/2024/10/06/1709725963309-7e0959b1-82a8-4cc3-a194-c71828c0ab4a837a463c5b8dfc72.png)
 
 如有bug，欢迎提issue
 
