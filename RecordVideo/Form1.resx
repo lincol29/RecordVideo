@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="vsp_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 35</value>
+  </data>
+  <data name="vsp_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>884, 621</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="vsp_Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="vsp_Panel.Text" xml:space="preserve">
+    <value>videoSourcePlayer1</value>
+  </data>
+  <data name="&gt;&gt;vsp_Panel.Name" xml:space="preserve">
+    <value>vsp_Panel</value>
+  </data>
+  <data name="&gt;&gt;vsp_Panel.Type" xml:space="preserve">
+    <value>AForge.Controls.VideoSourcePlayer, AForge.Controls, Version=2.2.5.0, Culture=neutral, PublicKeyToken=a8ac264d1dc6b9d9</value>
+  </data>
+  <data name="&gt;&gt;vsp_Panel.Parent" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;vsp_Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uiGroupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uiGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 119</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uiGroupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="uiGroupBox1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="uiGroupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 32, 0, 0</value>
+  </data>
+  <data name="uiGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>915, 673</value>
+  </data>
+  <data name="uiGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiGroupBox1.Text" xml:space="preserve">
+    <value>实时画面</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.Name" xml:space="preserve">
+    <value>uiGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.Type" xml:space="preserve">
+    <value>Sunny.UI.UIGroupBox, SunnyUI, Version=3.3.9.0, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;uiGroupBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btn_Connect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>898, 62</value>
+  </data>
+  <data name="btn_Connect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 41</value>
+  </data>
+  <data name="btn_Connect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_Connect.Text" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="&gt;&gt;btn_Connect.Name" xml:space="preserve">
+    <value>btn_Connect</value>
+  </data>
+  <data name="&gt;&gt;btn_Connect.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Connect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Connect.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 63</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 27</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>选择摄像头：</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_Close.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1252, 58</value>
+  </data>
+  <data name="btn_Close.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 41</value>
+  </data>
+  <data name="btn_Close.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Name" xml:space="preserve">
+    <value>btn_Close</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Close.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pb_BoxPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 33</value>
+  </data>
+  <data name="pb_BoxPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>554, 289</value>
+  </data>
+  <data name="pb_BoxPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pb_BoxPanel.Name" xml:space="preserve">
+    <value>pb_BoxPanel</value>
+  </data>
+  <data name="&gt;&gt;pb_BoxPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pb_BoxPanel.Parent" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;pb_BoxPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="skinGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>957, 131</value>
+  </data>
+  <data name="skinGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 339</value>
+  </data>
+  <data name="skinGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="skinGroupBox1.Text" xml:space="preserve">
+    <value>拍摄内容</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Name" xml:space="preserve">
+    <value>skinGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_EndVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 59</value>
+  </data>
+  <data name="btn_EndVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 41</value>
+  </data>
+  <data name="btn_EndVideo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_EndVideo.Text" xml:space="preserve">
+    <value>结束录像</value>
+  </data>
+  <data name="&gt;&gt;btn_EndVideo.Name" xml:space="preserve">
+    <value>btn_EndVideo</value>
+  </data>
+  <data name="&gt;&gt;btn_EndVideo.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_EndVideo.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btn_EndVideo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_PauseVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 59</value>
+  </data>
+  <data name="btn_PauseVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 41</value>
+  </data>
+  <data name="btn_PauseVideo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_PauseVideo.Text" xml:space="preserve">
+    <value>暂停录像</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseVideo.Name" xml:space="preserve">
+    <value>btn_PauseVideo</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseVideo.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseVideo.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseVideo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_OpenPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 153</value>
+  </data>
+  <data name="btn_OpenPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 41</value>
+  </data>
+  <data name="btn_OpenPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_OpenPath.Text" xml:space="preserve">
+    <value>打开文件路径</value>
+  </data>
+  <data name="&gt;&gt;btn_OpenPath.Name" xml:space="preserve">
+    <value>btn_OpenPath</value>
+  </data>
+  <data name="&gt;&gt;btn_OpenPath.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_OpenPath.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btn_OpenPath.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_Save.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 153</value>
+  </data>
+  <data name="btn_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 41</value>
+  </data>
+  <data name="btn_Save.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>保存照片</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Name" xml:space="preserve">
+    <value>btn_Save</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btn_Save.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lab_Time.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab_Time.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="lab_Time.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 238</value>
+  </data>
+  <data name="lab_Time.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 27</value>
+  </data>
+  <data name="lab_Time.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lab_Time.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lab_Time.Name" xml:space="preserve">
+    <value>lab_Time</value>
+  </data>
+  <data name="&gt;&gt;lab_Time.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab_Time.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;lab_Time.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 238</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 27</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>录制时间：</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_Capture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 153</value>
+  </data>
+  <data name="btn_Capture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 41</value>
+  </data>
+  <data name="btn_Capture.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_Capture.Text" xml:space="preserve">
+    <value>拍照</value>
+  </data>
+  <data name="&gt;&gt;btn_Capture.Name" xml:space="preserve">
+    <value>btn_Capture</value>
+  </data>
+  <data name="&gt;&gt;btn_Capture.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_Capture.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btn_Capture.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_StartVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 59</value>
+  </data>
+  <data name="btn_StartVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 41</value>
+  </data>
+  <data name="btn_StartVideo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_StartVideo.Text" xml:space="preserve">
+    <value>开始录像</value>
+  </data>
+  <data name="&gt;&gt;btn_StartVideo.Name" xml:space="preserve">
+    <value>btn_StartVideo</value>
+  </data>
+  <data name="&gt;&gt;btn_StartVideo.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinButton, CSkin, Version=16.1.14.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btn_StartVideo.Parent" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;btn_StartVideo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="skinGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>957, 476</value>
+  </data>
+  <data name="skinGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>578, 316</value>
+  </data>
+  <data name="skinGroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="skinGroupBox2.Text" xml:space="preserve">
+    <value>按钮组：</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Name" xml:space="preserve">
+    <value>skinGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Type" xml:space="preserve">
+    <value>CCWin.SkinControl.SkinGroupBox, CSkin, Version=16.1.14.3, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;skinGroupBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cb_CameraSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 62</value>
+  </data>
+  <data name="cb_CameraSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 35</value>
+  </data>
+  <data name="cb_CameraSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cb_CameraSelect.Name" xml:space="preserve">
+    <value>cb_CameraSelect</value>
+  </data>
+  <data name="&gt;&gt;cb_CameraSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_CameraSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cb_CameraSelect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>454, 63</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 27</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>选择分辨率：</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cb_dpiSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>592, 62</value>
+  </data>
+  <data name="cb_dpiSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 35</value>
+  </data>
+  <data name="cb_dpiSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cb_dpiSelect.Name" xml:space="preserve">
+    <value>cb_dpiSelect</value>
+  </data>
+  <data name="&gt;&gt;cb_dpiSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cb_dpiSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cb_dpiSelect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1568, 814</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIAAoEQAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+rWb//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+q
+        Wf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6tZvwAAAAAAAAAAAAAAAAAAAAD/qlpd/6lYgAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+q
+        Wf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln/AAAAAAAAAAAAAAAA/6pYqv+q
+        Wf//qln//6dYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/qln//6pZ//+qWf//qln//6pZ//+q
+        Wf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf8AAAAAAAAAAP+q
+        WKr/qln//6pZ//+qWf//p1hAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+qWf//qln//6pZ//+q
+        Wf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ/wAA
+        AAD/qliq/6pZ//+qWf//qln//6pZ//+nWEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/6pZ//+q
+        Wf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+q
+        Wf//qln//6pYqv+qWf//qln//6pZ//+qWf//qln//6dYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+q
+        Wf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//p1hAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+q
+        Wf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+nWEAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/6pZ//+qWf//qln//6pZ//+qWJn/q1m//6pZ//+qWf//qln//6pZ//+q
+        Wf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6dYQAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/qln//6pZ//+qWd8AAAAAAAAAAAAAAAD/qFlw/6pZ//+q
+        Wf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+q
+        Wf//p1hAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+qWf//qln//6panwAAAAAAAAAAAAAAAP+d
+        Tg3/qlnv/6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+q
+        Wf//qln//6pZ//+nWEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/6pZ//+qWf//qlqfAAAAAAAA
+        AAAAAAAA/51ODf+qWe//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6tZ1P+q
+        Wf//qln//6pZ//+qWf//qln//6dYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/qln//6pZ//+q
+        Wd8AAAAAAAAAAAAAAAD/qFlw/6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+q
+        Wf//qlsq/6tZ1P+qWf//qln//6pZ//+qWf//p1hAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+q
+        Wf//qln//6pZ//+qWf//qliZ/6tZv/+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+q
+        Wf//qln//6pZ/wAAAAD/qlsq/6tZ1P+qWf//qln//6pZ//+nWEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/6pZ3/+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+qWf//qln//6pZ//+q
+        Wf//qln//6pZ//+qWf//qlnlAAAAAAAAAAD/qlsq/6tZ1P+qWf//qln//6dYQAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/p1gg/6lYgP+pWID/qViA/6lYgP+pWID/qViA/6lYgP+pWID/qViA/6lYgP+p
+        WID/qViA/6lYgP+pWID/qViA/6lYgP+nWCAAAAAAAAAAAAAAAAD/qlsq/6pYnP+pWaQAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>RecordVideo</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>Sunny.UI.UIForm, SunnyUI, Version=3.3.9.0, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb</value>
+  </data>
+</root>
